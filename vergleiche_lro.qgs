@@ -1,0 +1,2009 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.10.0-A Coruña" projectname="">
+  <homePath path=""/>
+  <title></title>
+  <autotransaction active="0"/>
+  <evaluateDefaultValues active="0"/>
+  <trust active="0"/>
+  <projectCrs>
+    <spatialrefsys>
+      <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=2600000 +y_0=1200000 +ellps=bessel +towgs84=674.374,15.056,405.346,0,0,0,0 +units=m +no_defs</proj4>
+      <srsid>47</srsid>
+      <srid>2056</srid>
+      <authid>EPSG:2056</authid>
+      <description>CH1903+ / LV95</description>
+      <projectionacronym>somerc</projectionacronym>
+      <ellipsoidacronym>bessel</ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </projectCrs>
+  <layer-tree-group>
+    <customproperties/>
+    <layer-tree-layer providerKey="memory" checked="Qt::Unchecked" id="Intersection_b9c144cd_a1b9_4ba1_a942_06afb97bcd4a" source="MultiPolygon?crs=EPSG:2056&amp;field=T_Id:long(0,0)&amp;field=nummerteilgrundstueck:string(12,0)&amp;field=flaechenmass:long(0,0)&amp;field=liegenschaft_von:long(0,0)&amp;field=T_Id_2:long(0,0)&amp;field=nummerteilgrundstueck_2:string(12,0)&amp;field=flaechenmass_2:long(0,0)&amp;field=liegenschaft_von_2:long(0,0)&amp;uid={59352875-ff50-4b7d-8ec7-2ae338393147}" name="Intersection" expanded="1">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer providerKey="ogr" checked="Qt::Unchecked" id="2580_gemeindegrenzen_hoheitsgrenzpunkt_4f074853_7e01_469c_81b9_2504a22fc925" source="./2580_Kappel/20191115/2580.gpkg|layername=gemeindegrenzen_hoheitsgrenzpunkt" name="2580 gemeindegrenzen_hoheitsgrenzpunkt" expanded="1">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer providerKey="ogr" checked="Qt::Unchecked" id="2578_gemeindegrenzen_hoheitsgrenzpunkt_3e0fd233_a64a_4443_9e9f_71bdf160be03" source="./2578_Gunzgen/20191107/2578.gpkg|layername=gemeindegrenzen_hoheitsgrenzpunkt" name="2578 gemeindegrenzen_hoheitsgrenzpunkt" expanded="1">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer providerKey="ogr" checked="Qt::Unchecked" id="2578_liegenschaften_grenzpunkt_41e40846_eebf_4f5c_959c_085f40e3707a" source="./2578_Gunzgen/20191107/2578.gpkg|layername=liegenschaften_grenzpunkt" name="2578 liegenschaften_grenzpunkt" expanded="1">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer providerKey="ogr" checked="Qt::Unchecked" id="2580_liegenschaften_grenzpunkt_85e3419e_f005_4e83_b4e6_61d7b59f401b" source="./2580_Kappel/20191115/2580.gpkg|layername=liegenschaften_grenzpunkt" name="2580 liegenschaften_grenzpunkt" expanded="1">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer providerKey="ogr" checked="Qt::Checked" id="2578_liegenschaften_liegenschaft_54bdd4e9_b922_480b_a622_e70e3d7bea07" source="./2578_Gunzgen/20191107/2578.gpkg|layername=liegenschaften_liegenschaft" name="2578 liegenschaften_liegenschaft" expanded="1">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer providerKey="ogr" checked="Qt::Checked" id="2580_liegenschaften_liegenschaft_35456338_8042_4e25_a674_d88e748aa805" source="./2580_Kappel/20191115/2580.gpkg|layername=liegenschaften_liegenschaft" name="2580 liegenschaften_liegenschaft" expanded="1">
+      <customproperties/>
+    </layer-tree-layer>
+    <custom-order enabled="0">
+      <item>2580_liegenschaften_grenzpunkt_85e3419e_f005_4e83_b4e6_61d7b59f401b</item>
+      <item>2580_liegenschaften_liegenschaft_35456338_8042_4e25_a674_d88e748aa805</item>
+      <item>2580_gemeindegrenzen_hoheitsgrenzpunkt_4f074853_7e01_469c_81b9_2504a22fc925</item>
+      <item>2578_gemeindegrenzen_hoheitsgrenzpunkt_3e0fd233_a64a_4443_9e9f_71bdf160be03</item>
+      <item>2578_liegenschaften_grenzpunkt_41e40846_eebf_4f5c_959c_085f40e3707a</item>
+      <item>2578_liegenschaften_liegenschaft_54bdd4e9_b922_480b_a622_e70e3d7bea07</item>
+      <item>Intersection_b9c144cd_a1b9_4ba1_a942_06afb97bcd4a</item>
+    </custom-order>
+  </layer-tree-group>
+  <snapping-settings intersection-snapping="0" enabled="0" type="1" tolerance="12" unit="1" mode="2">
+    <individual-layer-settings>
+      <layer-setting enabled="0" units="1" type="1" tolerance="12" id="2578_liegenschaften_liegenschaft_54bdd4e9_b922_480b_a622_e70e3d7bea07"/>
+      <layer-setting enabled="0" units="1" type="1" tolerance="12" id="2580_liegenschaften_liegenschaft_35456338_8042_4e25_a674_d88e748aa805"/>
+      <layer-setting enabled="0" units="1" type="1" tolerance="12" id="2578_gemeindegrenzen_hoheitsgrenzpunkt_3e0fd233_a64a_4443_9e9f_71bdf160be03"/>
+      <layer-setting enabled="0" units="1" type="1" tolerance="12" id="Intersection_b9c144cd_a1b9_4ba1_a942_06afb97bcd4a"/>
+      <layer-setting enabled="0" units="1" type="1" tolerance="12" id="2580_gemeindegrenzen_hoheitsgrenzpunkt_4f074853_7e01_469c_81b9_2504a22fc925"/>
+      <layer-setting enabled="0" units="1" type="1" tolerance="12" id="2578_liegenschaften_grenzpunkt_41e40846_eebf_4f5c_959c_085f40e3707a"/>
+      <layer-setting enabled="0" units="1" type="1" tolerance="12" id="2580_liegenschaften_grenzpunkt_85e3419e_f005_4e83_b4e6_61d7b59f401b"/>
+    </individual-layer-settings>
+  </snapping-settings>
+  <relations/>
+  <mapcanvas annotationsVisible="1" name="theMapCanvas">
+    <units>meters</units>
+    <extent>
+      <xmin>2630815.24729855405166745</xmin>
+      <ymin>1238932.08210661564953625</ymin>
+      <xmax>2632672.21604855405166745</xmax>
+      <ymax>1241120.30085661564953625</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=2600000 +y_0=1200000 +ellps=bessel +towgs84=674.374,15.056,405.346,0,0,0,0 +units=m +no_defs</proj4>
+        <srsid>47</srsid>
+        <srid>2056</srid>
+        <authid>EPSG:2056</authid>
+        <description>CH1903+ / LV95</description>
+        <projectionacronym>somerc</projectionacronym>
+        <ellipsoidacronym>bessel</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <expressionContextScope/>
+  </mapcanvas>
+  <projectModels/>
+  <legend updateDrawingOrder="true">
+    <legendlayer drawingOrder="-1" checked="Qt::Unchecked" name="Intersection" open="true" showFeatureCount="0">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile layerid="Intersection_b9c144cd_a1b9_4ba1_a942_06afb97bcd4a" isInOverview="0" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" checked="Qt::Unchecked" name="2580 gemeindegrenzen_hoheitsgrenzpunkt" open="true" showFeatureCount="0">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile layerid="2580_gemeindegrenzen_hoheitsgrenzpunkt_4f074853_7e01_469c_81b9_2504a22fc925" isInOverview="0" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" checked="Qt::Unchecked" name="2578 gemeindegrenzen_hoheitsgrenzpunkt" open="true" showFeatureCount="0">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile layerid="2578_gemeindegrenzen_hoheitsgrenzpunkt_3e0fd233_a64a_4443_9e9f_71bdf160be03" isInOverview="0" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" checked="Qt::Unchecked" name="2578 liegenschaften_grenzpunkt" open="true" showFeatureCount="0">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile layerid="2578_liegenschaften_grenzpunkt_41e40846_eebf_4f5c_959c_085f40e3707a" isInOverview="0" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" checked="Qt::Unchecked" name="2580 liegenschaften_grenzpunkt" open="true" showFeatureCount="0">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile layerid="2580_liegenschaften_grenzpunkt_85e3419e_f005_4e83_b4e6_61d7b59f401b" isInOverview="0" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" checked="Qt::Checked" name="2578 liegenschaften_liegenschaft" open="true" showFeatureCount="0">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile layerid="2578_liegenschaften_liegenschaft_54bdd4e9_b922_480b_a622_e70e3d7bea07" isInOverview="0" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" checked="Qt::Checked" name="2580 liegenschaften_liegenschaft" open="true" showFeatureCount="0">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile layerid="2580_liegenschaften_liegenschaft_35456338_8042_4e25_a674_d88e748aa805" isInOverview="0" visible="1"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <mapViewDocks/>
+  <mapViewDocks3D/>
+  <projectlayers>
+    <maplayer refreshOnNotifyMessage="" simplifyAlgorithm="0" autoRefreshTime="0" labelsEnabled="0" simplifyDrawingTol="1" autoRefreshEnabled="0" maxScale="0" type="vector" geometry="Point" refreshOnNotifyEnabled="0" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" wkbType="Point" minScale="1e+08" readOnly="0" styleCategories="AllStyleCategories" simplifyMaxScale="1" simplifyDrawingHints="0">
+      <extent>
+        <xmin>2580000</xmin>
+        <ymin>1205000</ymin>
+        <xmax>2660000</xmax>
+        <ymax>1270000</ymax>
+      </extent>
+      <id>2578_gemeindegrenzen_hoheitsgrenzpunkt_3e0fd233_a64a_4443_9e9f_71bdf160be03</id>
+      <datasource>./2578_Gunzgen/20191107/2578.gpkg|layername=gemeindegrenzen_hoheitsgrenzpunkt</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>2578 gemeindegrenzen_hoheitsgrenzpunkt</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=2600000 +y_0=1200000 +ellps=bessel +towgs84=674.374,15.056,405.346,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>47</srsid>
+          <srid>2056</srid>
+          <authid>EPSG:2056</authid>
+          <description>CH1903+ / LV95</description>
+          <projectionacronym>somerc</projectionacronym>
+          <ellipsoidacronym>bessel</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 type="singleSymbol" forceraster="0" symbollevels="0" enableorderby="0">
+        <symbols>
+          <symbol clip_to_extent="1" alpha="1" type="marker" force_rhr="0" name="0">
+            <layer enabled="1" pass="0" locked="0" class="SimpleMarker">
+              <prop v="0" k="angle"/>
+              <prop v="114,155,111,255" k="color"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="circle" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="diameter" k="scale_method"/>
+              <prop v="2" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks type="StringList">
+          <Option value="" type="QString"/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="T_Id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="identifikator">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="lagegen">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="lagezuv">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="punktzeichen">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="hoheitsgrenzstein">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="exaktdefiniert">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="nbident">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="entstehung">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" name="" field="T_Id"/>
+        <alias index="1" name="" field="identifikator"/>
+        <alias index="2" name="" field="lagegen"/>
+        <alias index="3" name="" field="lagezuv"/>
+        <alias index="4" name="" field="punktzeichen"/>
+        <alias index="5" name="" field="hoheitsgrenzstein"/>
+        <alias index="6" name="" field="exaktdefiniert"/>
+        <alias index="7" name="" field="nbident"/>
+        <alias index="8" name="" field="entstehung"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default expression="" field="T_Id" applyOnUpdate="0"/>
+        <default expression="" field="identifikator" applyOnUpdate="0"/>
+        <default expression="" field="lagegen" applyOnUpdate="0"/>
+        <default expression="" field="lagezuv" applyOnUpdate="0"/>
+        <default expression="" field="punktzeichen" applyOnUpdate="0"/>
+        <default expression="" field="hoheitsgrenzstein" applyOnUpdate="0"/>
+        <default expression="" field="exaktdefiniert" applyOnUpdate="0"/>
+        <default expression="" field="nbident" applyOnUpdate="0"/>
+        <default expression="" field="entstehung" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="1" constraints="3" exp_strength="0" unique_strength="1" field="T_Id"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0" field="identifikator"/>
+        <constraint notnull_strength="1" constraints="1" exp_strength="0" unique_strength="0" field="lagegen"/>
+        <constraint notnull_strength="1" constraints="1" exp_strength="0" unique_strength="0" field="lagezuv"/>
+        <constraint notnull_strength="1" constraints="1" exp_strength="0" unique_strength="0" field="punktzeichen"/>
+        <constraint notnull_strength="1" constraints="1" exp_strength="0" unique_strength="0" field="hoheitsgrenzstein"/>
+        <constraint notnull_strength="1" constraints="1" exp_strength="0" unique_strength="0" field="exaktdefiniert"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0" field="nbident"/>
+        <constraint notnull_strength="1" constraints="1" exp_strength="0" unique_strength="0" field="entstehung"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" exp="" field="T_Id"/>
+        <constraint desc="" exp="" field="identifikator"/>
+        <constraint desc="" exp="" field="lagegen"/>
+        <constraint desc="" exp="" field="lagezuv"/>
+        <constraint desc="" exp="" field="punktzeichen"/>
+        <constraint desc="" exp="" field="hoheitsgrenzstein"/>
+        <constraint desc="" exp="" field="exaktdefiniert"/>
+        <constraint desc="" exp="" field="nbident"/>
+        <constraint desc="" exp="" field="entstehung"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer refreshOnNotifyMessage="" simplifyAlgorithm="0" autoRefreshTime="0" labelsEnabled="0" simplifyDrawingTol="1" autoRefreshEnabled="0" maxScale="0" type="vector" geometry="Point" refreshOnNotifyEnabled="0" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" wkbType="Point" minScale="1e+08" readOnly="0" styleCategories="AllStyleCategories" simplifyMaxScale="1" simplifyDrawingHints="0">
+      <extent>
+        <xmin>2580000</xmin>
+        <ymin>1205000</ymin>
+        <xmax>2660000</xmax>
+        <ymax>1270000</ymax>
+      </extent>
+      <id>2578_liegenschaften_grenzpunkt_41e40846_eebf_4f5c_959c_085f40e3707a</id>
+      <datasource>./2578_Gunzgen/20191107/2578.gpkg|layername=liegenschaften_grenzpunkt</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>2578 liegenschaften_grenzpunkt</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=2600000 +y_0=1200000 +ellps=bessel +towgs84=674.374,15.056,405.346,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>47</srsid>
+          <srid>2056</srid>
+          <authid>EPSG:2056</authid>
+          <description>CH1903+ / LV95</description>
+          <projectionacronym>somerc</projectionacronym>
+          <ellipsoidacronym>bessel</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 type="singleSymbol" forceraster="0" symbollevels="0" enableorderby="0">
+        <symbols>
+          <symbol clip_to_extent="1" alpha="1" type="marker" force_rhr="0" name="0">
+            <layer enabled="1" pass="0" locked="0" class="SimpleMarker">
+              <prop v="0" k="angle"/>
+              <prop v="213,180,60,255" k="color"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="circle" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="diameter" k="scale_method"/>
+              <prop v="2" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks type="StringList">
+          <Option value="" type="QString"/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="T_Id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="identifikator">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="lagegen">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="lagezuv">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="punktzeichen">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="exaktdefiniert">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="hoheitsgrenzsteinalt">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="entstehung">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" name="" field="T_Id"/>
+        <alias index="1" name="" field="identifikator"/>
+        <alias index="2" name="" field="lagegen"/>
+        <alias index="3" name="" field="lagezuv"/>
+        <alias index="4" name="" field="punktzeichen"/>
+        <alias index="5" name="" field="exaktdefiniert"/>
+        <alias index="6" name="" field="hoheitsgrenzsteinalt"/>
+        <alias index="7" name="" field="entstehung"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default expression="" field="T_Id" applyOnUpdate="0"/>
+        <default expression="" field="identifikator" applyOnUpdate="0"/>
+        <default expression="" field="lagegen" applyOnUpdate="0"/>
+        <default expression="" field="lagezuv" applyOnUpdate="0"/>
+        <default expression="" field="punktzeichen" applyOnUpdate="0"/>
+        <default expression="" field="exaktdefiniert" applyOnUpdate="0"/>
+        <default expression="" field="hoheitsgrenzsteinalt" applyOnUpdate="0"/>
+        <default expression="" field="entstehung" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="1" constraints="3" exp_strength="0" unique_strength="1" field="T_Id"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0" field="identifikator"/>
+        <constraint notnull_strength="1" constraints="1" exp_strength="0" unique_strength="0" field="lagegen"/>
+        <constraint notnull_strength="1" constraints="1" exp_strength="0" unique_strength="0" field="lagezuv"/>
+        <constraint notnull_strength="1" constraints="1" exp_strength="0" unique_strength="0" field="punktzeichen"/>
+        <constraint notnull_strength="1" constraints="1" exp_strength="0" unique_strength="0" field="exaktdefiniert"/>
+        <constraint notnull_strength="1" constraints="1" exp_strength="0" unique_strength="0" field="hoheitsgrenzsteinalt"/>
+        <constraint notnull_strength="1" constraints="1" exp_strength="0" unique_strength="0" field="entstehung"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" exp="" field="T_Id"/>
+        <constraint desc="" exp="" field="identifikator"/>
+        <constraint desc="" exp="" field="lagegen"/>
+        <constraint desc="" exp="" field="lagezuv"/>
+        <constraint desc="" exp="" field="punktzeichen"/>
+        <constraint desc="" exp="" field="exaktdefiniert"/>
+        <constraint desc="" exp="" field="hoheitsgrenzsteinalt"/>
+        <constraint desc="" exp="" field="entstehung"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer refreshOnNotifyMessage="" simplifyAlgorithm="0" autoRefreshTime="0" labelsEnabled="0" simplifyDrawingTol="1" autoRefreshEnabled="0" maxScale="0" type="vector" geometry="Polygon" refreshOnNotifyEnabled="0" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" wkbType="Polygon" minScale="1e+08" readOnly="0" styleCategories="AllStyleCategories" simplifyMaxScale="1" simplifyDrawingHints="0">
+      <extent>
+        <xmin>2580000</xmin>
+        <ymin>1205000</ymin>
+        <xmax>2660000</xmax>
+        <ymax>1270000</ymax>
+      </extent>
+      <id>2578_liegenschaften_liegenschaft_54bdd4e9_b922_480b_a622_e70e3d7bea07</id>
+      <datasource>./2578_Gunzgen/20191107/2578.gpkg|layername=liegenschaften_liegenschaft</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>2578 liegenschaften_liegenschaft</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=2600000 +y_0=1200000 +ellps=bessel +towgs84=674.374,15.056,405.346,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>47</srsid>
+          <srid>2056</srid>
+          <authid>EPSG:2056</authid>
+          <description>CH1903+ / LV95</description>
+          <projectionacronym>somerc</projectionacronym>
+          <ellipsoidacronym>bessel</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial crs="" dimensions="2" maxy="0" minx="0" miny="0" maxx="0" minz="0" maxz="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 type="singleSymbol" forceraster="0" symbollevels="0" enableorderby="0">
+        <symbols>
+          <symbol clip_to_extent="1" alpha="1" type="fill" force_rhr="0" name="0">
+            <layer enabled="1" pass="0" locked="0" class="SimpleFill">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="164,113,88,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="164,113,88,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.4" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="no" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+            <layer enabled="1" pass="0" locked="0" class="MarkerLine">
+              <prop v="4" k="average_angle_length"/>
+              <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
+              <prop v="MM" k="average_angle_unit"/>
+              <prop v="3" k="interval"/>
+              <prop v="3x:0,0,0,0,0,0" k="interval_map_unit_scale"/>
+              <prop v="MM" k="interval_unit"/>
+              <prop v="0" k="offset"/>
+              <prop v="0" k="offset_along_line"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_along_line_map_unit_scale"/>
+              <prop v="MM" k="offset_along_line_unit"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="vertex" k="placement"/>
+              <prop v="0" k="ring_filter"/>
+              <prop v="1" k="rotate"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+              <symbol clip_to_extent="1" alpha="1" type="marker" force_rhr="0" name="@0@1">
+                <layer enabled="1" pass="0" locked="0" class="SimpleMarker">
+                  <prop v="0" k="angle"/>
+                  <prop v="164,113,88,255" k="color"/>
+                  <prop v="1" k="horizontal_anchor_point"/>
+                  <prop v="bevel" k="joinstyle"/>
+                  <prop v="circle" k="name"/>
+                  <prop v="0,0" k="offset"/>
+                  <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+                  <prop v="MM" k="offset_unit"/>
+                  <prop v="35,35,35,255" k="outline_color"/>
+                  <prop v="solid" k="outline_style"/>
+                  <prop v="0" k="outline_width"/>
+                  <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+                  <prop v="MM" k="outline_width_unit"/>
+                  <prop v="diameter" k="scale_method"/>
+                  <prop v="2" k="size"/>
+                  <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+                  <prop v="MM" k="size_unit"/>
+                  <prop v="1" k="vertical_anchor_point"/>
+                  <data_defined_properties>
+                    <Option type="Map">
+                      <Option value="" type="QString" name="name"/>
+                      <Option name="properties"/>
+                      <Option value="collection" type="QString" name="type"/>
+                    </Option>
+                  </data_defined_properties>
+                </layer>
+              </symbol>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+        <DiagramCategory height="15" penWidth="0" penAlpha="255" barWidth="5" penColor="#000000" minScaleDenominator="0" backgroundAlpha="255" width="15" enabled="0" backgroundColor="#ffffff" scaleBasedVisibility="0" rotationOffset="270" minimumSize="0" lineSizeType="MM" scaleDependency="Area" labelPlacementMethod="XHeight" opacity="1" lineSizeScale="3x:0,0,0,0,0,0" diagramOrientation="Up" maxScaleDenominator="1e+08" sizeScale="3x:0,0,0,0,0,0" sizeType="MM">
+          <fontProperties style="" description=".SF NS Text,13,-1,5,50,0,0,0,0,0"/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings placement="1" showAll="1" priority="0" zIndex="0" obstacle="0" dist="0" linePlacementFlags="18">
+        <properties>
+          <Option type="Map">
+            <Option value="" type="QString" name="name"/>
+            <Option name="properties"/>
+            <Option value="collection" type="QString" name="type"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks/>
+        <checkConfiguration type="Map">
+          <Option type="Map" name="QgsGeometryGapCheck">
+            <Option value="0" type="double" name="allowedGapsBuffer"/>
+            <Option value="false" type="bool" name="allowedGapsEnabled"/>
+            <Option value="" type="QString" name="allowedGapsLayer"/>
+          </Option>
+        </checkConfiguration>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="T_Id">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="nummerteilgrundstueck">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="flaechenmass">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="liegenschaft_von">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" name="" field="T_Id"/>
+        <alias index="1" name="" field="nummerteilgrundstueck"/>
+        <alias index="2" name="" field="flaechenmass"/>
+        <alias index="3" name="" field="liegenschaft_von"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default expression="" field="T_Id" applyOnUpdate="0"/>
+        <default expression="" field="nummerteilgrundstueck" applyOnUpdate="0"/>
+        <default expression="" field="flaechenmass" applyOnUpdate="0"/>
+        <default expression="" field="liegenschaft_von" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="1" constraints="3" exp_strength="0" unique_strength="1" field="T_Id"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0" field="nummerteilgrundstueck"/>
+        <constraint notnull_strength="1" constraints="1" exp_strength="0" unique_strength="0" field="flaechenmass"/>
+        <constraint notnull_strength="1" constraints="1" exp_strength="0" unique_strength="0" field="liegenschaft_von"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" exp="" field="T_Id"/>
+        <constraint desc="" exp="" field="nummerteilgrundstueck"/>
+        <constraint desc="" exp="" field="flaechenmass"/>
+        <constraint desc="" exp="" field="liegenschaft_von"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
+        <columns>
+          <column width="-1" hidden="0" type="field" name="T_Id"/>
+          <column width="-1" hidden="0" type="field" name="nummerteilgrundstueck"/>
+          <column width="-1" hidden="0" type="field" name="flaechenmass"/>
+          <column width="-1" hidden="0" type="field" name="liegenschaft_von"/>
+          <column width="-1" hidden="1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field editable="1" name="T_Id"/>
+        <field editable="1" name="flaechenmass"/>
+        <field editable="1" name="liegenschaft_von"/>
+        <field editable="1" name="nummerteilgrundstueck"/>
+      </editable>
+      <labelOnTop>
+        <field labelOnTop="0" name="T_Id"/>
+        <field labelOnTop="0" name="flaechenmass"/>
+        <field labelOnTop="0" name="liegenschaft_von"/>
+        <field labelOnTop="0" name="nummerteilgrundstueck"/>
+      </labelOnTop>
+      <widgets/>
+      <previewExpression>T_Id</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer refreshOnNotifyMessage="" simplifyAlgorithm="0" autoRefreshTime="0" labelsEnabled="0" simplifyDrawingTol="1" autoRefreshEnabled="0" maxScale="0" type="vector" geometry="Point" refreshOnNotifyEnabled="0" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" wkbType="Point" minScale="1e+08" readOnly="0" styleCategories="AllStyleCategories" simplifyMaxScale="1" simplifyDrawingHints="0">
+      <extent>
+        <xmin>2580000</xmin>
+        <ymin>1205000</ymin>
+        <xmax>2660000</xmax>
+        <ymax>1270000</ymax>
+      </extent>
+      <id>2580_gemeindegrenzen_hoheitsgrenzpunkt_4f074853_7e01_469c_81b9_2504a22fc925</id>
+      <datasource>./2580_Kappel/20191115/2580.gpkg|layername=gemeindegrenzen_hoheitsgrenzpunkt</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>2580 gemeindegrenzen_hoheitsgrenzpunkt</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=2600000 +y_0=1200000 +ellps=bessel +towgs84=674.374,15.056,405.346,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>47</srsid>
+          <srid>2056</srid>
+          <authid>EPSG:2056</authid>
+          <description>CH1903+ / LV95</description>
+          <projectionacronym>somerc</projectionacronym>
+          <ellipsoidacronym>bessel</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 type="singleSymbol" forceraster="0" symbollevels="0" enableorderby="0">
+        <symbols>
+          <symbol clip_to_extent="1" alpha="1" type="marker" force_rhr="0" name="0">
+            <layer enabled="1" pass="0" locked="0" class="SimpleMarker">
+              <prop v="0" k="angle"/>
+              <prop v="125,139,143,255" k="color"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="circle" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="diameter" k="scale_method"/>
+              <prop v="2" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks type="StringList">
+          <Option value="" type="QString"/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="T_Id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="identifikator">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="lagegen">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="lagezuv">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="punktzeichen">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="hoheitsgrenzstein">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="exaktdefiniert">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="nbident">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="entstehung">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" name="" field="T_Id"/>
+        <alias index="1" name="" field="identifikator"/>
+        <alias index="2" name="" field="lagegen"/>
+        <alias index="3" name="" field="lagezuv"/>
+        <alias index="4" name="" field="punktzeichen"/>
+        <alias index="5" name="" field="hoheitsgrenzstein"/>
+        <alias index="6" name="" field="exaktdefiniert"/>
+        <alias index="7" name="" field="nbident"/>
+        <alias index="8" name="" field="entstehung"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default expression="" field="T_Id" applyOnUpdate="0"/>
+        <default expression="" field="identifikator" applyOnUpdate="0"/>
+        <default expression="" field="lagegen" applyOnUpdate="0"/>
+        <default expression="" field="lagezuv" applyOnUpdate="0"/>
+        <default expression="" field="punktzeichen" applyOnUpdate="0"/>
+        <default expression="" field="hoheitsgrenzstein" applyOnUpdate="0"/>
+        <default expression="" field="exaktdefiniert" applyOnUpdate="0"/>
+        <default expression="" field="nbident" applyOnUpdate="0"/>
+        <default expression="" field="entstehung" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="1" constraints="3" exp_strength="0" unique_strength="1" field="T_Id"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0" field="identifikator"/>
+        <constraint notnull_strength="1" constraints="1" exp_strength="0" unique_strength="0" field="lagegen"/>
+        <constraint notnull_strength="1" constraints="1" exp_strength="0" unique_strength="0" field="lagezuv"/>
+        <constraint notnull_strength="1" constraints="1" exp_strength="0" unique_strength="0" field="punktzeichen"/>
+        <constraint notnull_strength="1" constraints="1" exp_strength="0" unique_strength="0" field="hoheitsgrenzstein"/>
+        <constraint notnull_strength="1" constraints="1" exp_strength="0" unique_strength="0" field="exaktdefiniert"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0" field="nbident"/>
+        <constraint notnull_strength="1" constraints="1" exp_strength="0" unique_strength="0" field="entstehung"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" exp="" field="T_Id"/>
+        <constraint desc="" exp="" field="identifikator"/>
+        <constraint desc="" exp="" field="lagegen"/>
+        <constraint desc="" exp="" field="lagezuv"/>
+        <constraint desc="" exp="" field="punktzeichen"/>
+        <constraint desc="" exp="" field="hoheitsgrenzstein"/>
+        <constraint desc="" exp="" field="exaktdefiniert"/>
+        <constraint desc="" exp="" field="nbident"/>
+        <constraint desc="" exp="" field="entstehung"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer refreshOnNotifyMessage="" simplifyAlgorithm="0" autoRefreshTime="0" labelsEnabled="0" simplifyDrawingTol="1" autoRefreshEnabled="0" maxScale="0" type="vector" geometry="Point" refreshOnNotifyEnabled="0" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" wkbType="Point" minScale="1e+08" readOnly="0" styleCategories="AllStyleCategories" simplifyMaxScale="1" simplifyDrawingHints="0">
+      <extent>
+        <xmin>2580000</xmin>
+        <ymin>1205000</ymin>
+        <xmax>2660000</xmax>
+        <ymax>1270000</ymax>
+      </extent>
+      <id>2580_liegenschaften_grenzpunkt_85e3419e_f005_4e83_b4e6_61d7b59f401b</id>
+      <datasource>./2580_Kappel/20191115/2580.gpkg|layername=liegenschaften_grenzpunkt</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>2580 liegenschaften_grenzpunkt</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=2600000 +y_0=1200000 +ellps=bessel +towgs84=674.374,15.056,405.346,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>47</srsid>
+          <srid>2056</srid>
+          <authid>EPSG:2056</authid>
+          <description>CH1903+ / LV95</description>
+          <projectionacronym>somerc</projectionacronym>
+          <ellipsoidacronym>bessel</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 type="singleSymbol" forceraster="0" symbollevels="0" enableorderby="0">
+        <symbols>
+          <symbol clip_to_extent="1" alpha="1" type="marker" force_rhr="0" name="0">
+            <layer enabled="1" pass="0" locked="0" class="SimpleMarker">
+              <prop v="0" k="angle"/>
+              <prop v="164,113,88,255" k="color"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="circle" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="diameter" k="scale_method"/>
+              <prop v="2" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks type="StringList">
+          <Option value="" type="QString"/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="T_Id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="identifikator">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="lagegen">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="lagezuv">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="punktzeichen">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="exaktdefiniert">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="hoheitsgrenzsteinalt">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="entstehung">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" name="" field="T_Id"/>
+        <alias index="1" name="" field="identifikator"/>
+        <alias index="2" name="" field="lagegen"/>
+        <alias index="3" name="" field="lagezuv"/>
+        <alias index="4" name="" field="punktzeichen"/>
+        <alias index="5" name="" field="exaktdefiniert"/>
+        <alias index="6" name="" field="hoheitsgrenzsteinalt"/>
+        <alias index="7" name="" field="entstehung"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default expression="" field="T_Id" applyOnUpdate="0"/>
+        <default expression="" field="identifikator" applyOnUpdate="0"/>
+        <default expression="" field="lagegen" applyOnUpdate="0"/>
+        <default expression="" field="lagezuv" applyOnUpdate="0"/>
+        <default expression="" field="punktzeichen" applyOnUpdate="0"/>
+        <default expression="" field="exaktdefiniert" applyOnUpdate="0"/>
+        <default expression="" field="hoheitsgrenzsteinalt" applyOnUpdate="0"/>
+        <default expression="" field="entstehung" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="1" constraints="3" exp_strength="0" unique_strength="1" field="T_Id"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0" field="identifikator"/>
+        <constraint notnull_strength="1" constraints="1" exp_strength="0" unique_strength="0" field="lagegen"/>
+        <constraint notnull_strength="1" constraints="1" exp_strength="0" unique_strength="0" field="lagezuv"/>
+        <constraint notnull_strength="1" constraints="1" exp_strength="0" unique_strength="0" field="punktzeichen"/>
+        <constraint notnull_strength="1" constraints="1" exp_strength="0" unique_strength="0" field="exaktdefiniert"/>
+        <constraint notnull_strength="1" constraints="1" exp_strength="0" unique_strength="0" field="hoheitsgrenzsteinalt"/>
+        <constraint notnull_strength="1" constraints="1" exp_strength="0" unique_strength="0" field="entstehung"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" exp="" field="T_Id"/>
+        <constraint desc="" exp="" field="identifikator"/>
+        <constraint desc="" exp="" field="lagegen"/>
+        <constraint desc="" exp="" field="lagezuv"/>
+        <constraint desc="" exp="" field="punktzeichen"/>
+        <constraint desc="" exp="" field="exaktdefiniert"/>
+        <constraint desc="" exp="" field="hoheitsgrenzsteinalt"/>
+        <constraint desc="" exp="" field="entstehung"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer refreshOnNotifyMessage="" simplifyAlgorithm="0" autoRefreshTime="0" labelsEnabled="0" simplifyDrawingTol="1" autoRefreshEnabled="0" maxScale="0" type="vector" geometry="Polygon" refreshOnNotifyEnabled="0" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" wkbType="Polygon" minScale="1e+08" readOnly="0" styleCategories="AllStyleCategories" simplifyMaxScale="1" simplifyDrawingHints="0">
+      <extent>
+        <xmin>2580000</xmin>
+        <ymin>1205000</ymin>
+        <xmax>2660000</xmax>
+        <ymax>1270000</ymax>
+      </extent>
+      <id>2580_liegenschaften_liegenschaft_35456338_8042_4e25_a674_d88e748aa805</id>
+      <datasource>./2580_Kappel/20191115/2580.gpkg|layername=liegenschaften_liegenschaft</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>2580 liegenschaften_liegenschaft</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=2600000 +y_0=1200000 +ellps=bessel +towgs84=674.374,15.056,405.346,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>47</srsid>
+          <srid>2056</srid>
+          <authid>EPSG:2056</authid>
+          <description>CH1903+ / LV95</description>
+          <projectionacronym>somerc</projectionacronym>
+          <ellipsoidacronym>bessel</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial crs="" dimensions="2" maxy="0" minx="0" miny="0" maxx="0" minz="0" maxz="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 type="singleSymbol" forceraster="0" symbollevels="0" enableorderby="0">
+        <symbols>
+          <symbol clip_to_extent="1" alpha="1" type="fill" force_rhr="0" name="0">
+            <layer enabled="1" pass="0" locked="0" class="SimpleFill">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="133,182,111,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="133,182,111,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.4" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="no" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+            <layer enabled="1" pass="0" locked="0" class="MarkerLine">
+              <prop v="4" k="average_angle_length"/>
+              <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
+              <prop v="MM" k="average_angle_unit"/>
+              <prop v="3" k="interval"/>
+              <prop v="3x:0,0,0,0,0,0" k="interval_map_unit_scale"/>
+              <prop v="MM" k="interval_unit"/>
+              <prop v="0" k="offset"/>
+              <prop v="0" k="offset_along_line"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_along_line_map_unit_scale"/>
+              <prop v="MM" k="offset_along_line_unit"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="vertex" k="placement"/>
+              <prop v="0" k="ring_filter"/>
+              <prop v="1" k="rotate"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+              <symbol clip_to_extent="1" alpha="1" type="marker" force_rhr="0" name="@0@1">
+                <layer enabled="1" pass="0" locked="0" class="SimpleMarker">
+                  <prop v="0" k="angle"/>
+                  <prop v="51,160,44,255" k="color"/>
+                  <prop v="1" k="horizontal_anchor_point"/>
+                  <prop v="bevel" k="joinstyle"/>
+                  <prop v="circle" k="name"/>
+                  <prop v="0,0" k="offset"/>
+                  <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+                  <prop v="MM" k="offset_unit"/>
+                  <prop v="35,35,35,255" k="outline_color"/>
+                  <prop v="solid" k="outline_style"/>
+                  <prop v="0" k="outline_width"/>
+                  <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+                  <prop v="MM" k="outline_width_unit"/>
+                  <prop v="diameter" k="scale_method"/>
+                  <prop v="6" k="size"/>
+                  <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+                  <prop v="MM" k="size_unit"/>
+                  <prop v="1" k="vertical_anchor_point"/>
+                  <data_defined_properties>
+                    <Option type="Map">
+                      <Option value="" type="QString" name="name"/>
+                      <Option name="properties"/>
+                      <Option value="collection" type="QString" name="type"/>
+                    </Option>
+                  </data_defined_properties>
+                </layer>
+              </symbol>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+        <DiagramCategory height="15" penWidth="0" penAlpha="255" barWidth="5" penColor="#000000" minScaleDenominator="0" backgroundAlpha="255" width="15" enabled="0" backgroundColor="#ffffff" scaleBasedVisibility="0" rotationOffset="270" minimumSize="0" lineSizeType="MM" scaleDependency="Area" labelPlacementMethod="XHeight" opacity="1" lineSizeScale="3x:0,0,0,0,0,0" diagramOrientation="Up" maxScaleDenominator="1e+08" sizeScale="3x:0,0,0,0,0,0" sizeType="MM">
+          <fontProperties style="" description=".SF NS Text,13,-1,5,50,0,0,0,0,0"/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings placement="1" showAll="1" priority="0" zIndex="0" obstacle="0" dist="0" linePlacementFlags="18">
+        <properties>
+          <Option type="Map">
+            <Option value="" type="QString" name="name"/>
+            <Option name="properties"/>
+            <Option value="collection" type="QString" name="type"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks/>
+        <checkConfiguration type="Map">
+          <Option type="Map" name="QgsGeometryGapCheck">
+            <Option value="0" type="double" name="allowedGapsBuffer"/>
+            <Option value="false" type="bool" name="allowedGapsEnabled"/>
+            <Option value="" type="QString" name="allowedGapsLayer"/>
+          </Option>
+        </checkConfiguration>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="T_Id">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="nummerteilgrundstueck">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="flaechenmass">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="liegenschaft_von">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" name="" field="T_Id"/>
+        <alias index="1" name="" field="nummerteilgrundstueck"/>
+        <alias index="2" name="" field="flaechenmass"/>
+        <alias index="3" name="" field="liegenschaft_von"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default expression="" field="T_Id" applyOnUpdate="0"/>
+        <default expression="" field="nummerteilgrundstueck" applyOnUpdate="0"/>
+        <default expression="" field="flaechenmass" applyOnUpdate="0"/>
+        <default expression="" field="liegenschaft_von" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="1" constraints="3" exp_strength="0" unique_strength="1" field="T_Id"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0" field="nummerteilgrundstueck"/>
+        <constraint notnull_strength="1" constraints="1" exp_strength="0" unique_strength="0" field="flaechenmass"/>
+        <constraint notnull_strength="1" constraints="1" exp_strength="0" unique_strength="0" field="liegenschaft_von"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" exp="" field="T_Id"/>
+        <constraint desc="" exp="" field="nummerteilgrundstueck"/>
+        <constraint desc="" exp="" field="flaechenmass"/>
+        <constraint desc="" exp="" field="liegenschaft_von"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
+        <columns>
+          <column width="-1" hidden="0" type="field" name="T_Id"/>
+          <column width="-1" hidden="0" type="field" name="nummerteilgrundstueck"/>
+          <column width="-1" hidden="0" type="field" name="flaechenmass"/>
+          <column width="-1" hidden="0" type="field" name="liegenschaft_von"/>
+          <column width="-1" hidden="1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field editable="1" name="T_Id"/>
+        <field editable="1" name="flaechenmass"/>
+        <field editable="1" name="liegenschaft_von"/>
+        <field editable="1" name="nummerteilgrundstueck"/>
+      </editable>
+      <labelOnTop>
+        <field labelOnTop="0" name="T_Id"/>
+        <field labelOnTop="0" name="flaechenmass"/>
+        <field labelOnTop="0" name="liegenschaft_von"/>
+        <field labelOnTop="0" name="nummerteilgrundstueck"/>
+      </labelOnTop>
+      <widgets/>
+      <previewExpression>T_Id</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer refreshOnNotifyMessage="" simplifyAlgorithm="0" autoRefreshTime="0" labelsEnabled="0" simplifyDrawingTol="1" autoRefreshEnabled="0" maxScale="0" type="vector" geometry="Polygon" refreshOnNotifyEnabled="0" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" wkbType="MultiPolygon" minScale="1e+08" readOnly="0" styleCategories="AllStyleCategories" simplifyMaxScale="1" simplifyDrawingHints="0">
+      <id>Intersection_b9c144cd_a1b9_4ba1_a942_06afb97bcd4a</id>
+      <datasource>memory?geometry=MultiPolygon&amp;crs=EPSG:2056&amp;field=T_Id:int8(0,0)&amp;field=nummerteilgrundstueck:string(12,0)&amp;field=flaechenmass:int8(0,0)&amp;field=liegenschaft_von:int8(0,0)&amp;field=T_Id_2:int8(0,0)&amp;field=nummerteilgrundstueck_2:string(12,0)&amp;field=flaechenmass_2:int8(0,0)&amp;field=liegenschaft_von_2:int8(0,0)</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Intersection</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=2600000 +y_0=1200000 +ellps=bessel +towgs84=674.374,15.056,405.346,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>47</srsid>
+          <srid>2056</srid>
+          <authid>EPSG:2056</authid>
+          <description>CH1903+ / LV95</description>
+          <projectionacronym>somerc</projectionacronym>
+          <ellipsoidacronym>bessel</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">memory</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 type="singleSymbol" forceraster="0" symbollevels="0" enableorderby="0">
+        <symbols>
+          <symbol clip_to_extent="1" alpha="1" type="fill" force_rhr="0" name="0">
+            <layer enabled="1" pass="0" locked="0" class="SimpleFill">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="125,139,143,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property key="dualview/previewExpressions">
+          <value>"T_Id"</value>
+        </property>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks type="StringList">
+          <Option value="" type="QString"/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="T_Id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="nummerteilgrundstueck">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="flaechenmass">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="liegenschaft_von">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="T_Id_2">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="nummerteilgrundstueck_2">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="flaechenmass_2">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="liegenschaft_von_2">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" name="" field="T_Id"/>
+        <alias index="1" name="" field="nummerteilgrundstueck"/>
+        <alias index="2" name="" field="flaechenmass"/>
+        <alias index="3" name="" field="liegenschaft_von"/>
+        <alias index="4" name="" field="T_Id_2"/>
+        <alias index="5" name="" field="nummerteilgrundstueck_2"/>
+        <alias index="6" name="" field="flaechenmass_2"/>
+        <alias index="7" name="" field="liegenschaft_von_2"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default expression="" field="T_Id" applyOnUpdate="0"/>
+        <default expression="" field="nummerteilgrundstueck" applyOnUpdate="0"/>
+        <default expression="" field="flaechenmass" applyOnUpdate="0"/>
+        <default expression="" field="liegenschaft_von" applyOnUpdate="0"/>
+        <default expression="" field="T_Id_2" applyOnUpdate="0"/>
+        <default expression="" field="nummerteilgrundstueck_2" applyOnUpdate="0"/>
+        <default expression="" field="flaechenmass_2" applyOnUpdate="0"/>
+        <default expression="" field="liegenschaft_von_2" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0" field="T_Id"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0" field="nummerteilgrundstueck"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0" field="flaechenmass"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0" field="liegenschaft_von"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0" field="T_Id_2"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0" field="nummerteilgrundstueck_2"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0" field="flaechenmass_2"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0" field="liegenschaft_von_2"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" exp="" field="T_Id"/>
+        <constraint desc="" exp="" field="nummerteilgrundstueck"/>
+        <constraint desc="" exp="" field="flaechenmass"/>
+        <constraint desc="" exp="" field="liegenschaft_von"/>
+        <constraint desc="" exp="" field="T_Id_2"/>
+        <constraint desc="" exp="" field="nummerteilgrundstueck_2"/>
+        <constraint desc="" exp="" field="flaechenmass_2"/>
+        <constraint desc="" exp="" field="liegenschaft_von_2"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
+        <columns>
+          <column width="-1" hidden="0" type="field" name="T_Id"/>
+          <column width="-1" hidden="0" type="field" name="nummerteilgrundstueck"/>
+          <column width="-1" hidden="0" type="field" name="flaechenmass"/>
+          <column width="-1" hidden="0" type="field" name="liegenschaft_von"/>
+          <column width="-1" hidden="0" type="field" name="T_Id_2"/>
+          <column width="-1" hidden="0" type="field" name="nummerteilgrundstueck_2"/>
+          <column width="-1" hidden="0" type="field" name="flaechenmass_2"/>
+          <column width="-1" hidden="0" type="field" name="liegenschaft_von_2"/>
+          <column width="-1" hidden="1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression>"T_Id"</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </projectlayers>
+  <layerorder>
+    <layer id="2580_liegenschaften_grenzpunkt_85e3419e_f005_4e83_b4e6_61d7b59f401b"/>
+    <layer id="2580_liegenschaften_liegenschaft_35456338_8042_4e25_a674_d88e748aa805"/>
+    <layer id="2580_gemeindegrenzen_hoheitsgrenzpunkt_4f074853_7e01_469c_81b9_2504a22fc925"/>
+    <layer id="2578_gemeindegrenzen_hoheitsgrenzpunkt_3e0fd233_a64a_4443_9e9f_71bdf160be03"/>
+    <layer id="2578_liegenschaften_grenzpunkt_41e40846_eebf_4f5c_959c_085f40e3707a"/>
+    <layer id="2578_liegenschaften_liegenschaft_54bdd4e9_b922_480b_a622_e70e3d7bea07"/>
+    <layer id="Intersection_b9c144cd_a1b9_4ba1_a942_06afb97bcd4a"/>
+  </layerorder>
+  <properties>
+    <Gui>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+    </Gui>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <Measure>
+      <Ellipsoid type="QString">bessel</Ellipsoid>
+    </Measure>
+    <Measurement>
+      <AreaUnits type="QString">m2</AreaUnits>
+      <DistanceUnits type="QString">meters</DistanceUnits>
+    </Measurement>
+    <PAL>
+      <CandidatesLine type="int">50</CandidatesLine>
+      <CandidatesPoint type="int">16</CandidatesPoint>
+      <CandidatesPolygon type="int">30</CandidatesPolygon>
+      <DrawRectOnly type="bool">false</DrawRectOnly>
+      <DrawUnplaced type="bool">false</DrawUnplaced>
+      <SearchMethod type="int">0</SearchMethod>
+      <ShowingAllLabels type="bool">false</ShowingAllLabels>
+      <ShowingCandidates type="bool">false</ShowingCandidates>
+      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
+      <TextFormat type="int">0</TextFormat>
+      <UnplacedColor type="QString">255,0,0,255</UnplacedColor>
+    </PAL>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <PositionPrecision>
+      <Automatic type="bool">true</Automatic>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+    </PositionPrecision>
+    <SpatialRefSys>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+  </properties>
+  <visibility-presets/>
+  <transformContext>
+    <srcDest sourceTransform="+towgs84=674.374,15.056,405.346" source="EPSG:2056" dest="EPSG:4326" destTransform=""/>
+  </transformContext>
+  <projectMetadata>
+    <identifier></identifier>
+    <parentidentifier></parentidentifier>
+    <language></language>
+    <type></type>
+    <title></title>
+    <abstract></abstract>
+    <links/>
+    <author>Stefan Ziegler</author>
+    <creation>2019-11-18T17:43:08</creation>
+  </projectMetadata>
+  <Annotations/>
+  <Layouts/>
+  <Bookmarks/>
+</qgis>
